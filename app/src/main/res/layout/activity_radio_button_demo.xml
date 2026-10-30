@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".demo.componentDemo.RadioButtonDemoActivity">
+
+<!--    默认的RadioGroup布局-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择你喜欢的编程语言"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/languageRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/javaRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:text="Java"/>
+        <RadioButton
+            android:id="@+id/kotlinRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:text="Kotlin"/>
+        <RadioButton
+            android:id="@+id/cppRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:text="C++"/>
+        <RadioButton
+            android:id="@+id/pythonRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="Python"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/selectedLanguageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+<!--    自定义的RadioGroup布局-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择你的兴趣爱好："
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/customStyleRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/option1RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="运动健身"
+            android:textSize="16sp"
+            android:button="@null"
+            android:background="@drawable/custom_radio_button_selector"
+            android:textColor="@color/custom_radio_button_text_color"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <RadioButton
+            android:id="@+id/option2RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="阅读写作"
+            android:textSize="16sp"
+            android:button="@null"
+            android:background="@drawable/custom_radio_button_selector"
+            android:textColor="@color/custom_radio_button_text_color"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <RadioButton
+            android:id="@+id/option3RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="音乐艺术"
+            android:textSize="16sp"
+            android:button="@null"
+            android:background="@drawable/custom_radio_button_selector"
+            android:textColor="@color/custom_radio_button_text_color"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/customStyleRadioGroupTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+
+
+
+</LinearLayout>

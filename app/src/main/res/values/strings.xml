@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">待办助手</string>
+    <string name="news_title">资讯</string>
+    <string name="news_empty">暂无资讯</string>
+    <string name="news_load_failed">资讯加载失败</string>
+    <string name="retry">重试</string>
+    <string name="audio_title">本地音频</string>
+    <string name="scan_audio">扫描</string>
+    <string name="audio_empty">未找到本地音频</string>
+    <string name="grant_audio_access">授权访问</string>
+    <string name="profile_title">我的</string>
+    <string name="current_account">当前账号</string>
+    <string name="change_avatar">更换头像</string>
+    <string name="current_avatar">当前头像</string>
+    <string name="logout">退出登录</string>
+    <string name="hello_world">hello world!!!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

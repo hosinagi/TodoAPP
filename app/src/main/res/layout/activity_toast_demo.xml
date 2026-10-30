@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".demo.componentDemo.ToastDemoActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/normalToastBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通Toast"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ToastyBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录成功Toasty"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ToastyBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录失败Toasty"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ToastyBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info提示Toasty"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ToastyBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="警告信息Toasty"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ToastyBtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="normal样式Toasty"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ToastyBtn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="封装Toast"/>
+
+</LinearLayout>

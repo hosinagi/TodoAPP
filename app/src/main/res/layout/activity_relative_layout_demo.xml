@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".demo.layoutDemo.RelativeLayoutDemoActivity">
+
+    <View
+        android:id="@+id/box1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#0000ff"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/box1"
+        android:layout_centerHorizontal="true"
+        android:background="#F44336"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/box1"
+        android:layout_centerHorizontal="true"
+        android:background="#52C34A"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toStartOf="@+id/box1"
+        android:layout_centerVertical="true"
+        android:background="#9536F4"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/box1"
+        android:layout_centerVertical="true"
+        android:background="#F4E136"/>
+
+</RelativeLayout>
